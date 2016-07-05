@@ -47,6 +47,14 @@ sudo sh -c 'echo "deb [arch=amd64] https://apt-mo.trafficmanager.net/repos/dotne
 ```
 #!/bin/bash
 
-chmod +x myscript
+chmod +x myscript.sh
 ```
 
+## SSH
+
+```
+sudo apt-get install openssh-server
+sudo service ssh status
+sudo nano /etc/ssh/sshd_config
+sudo service ssh restart
+```
