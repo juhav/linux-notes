@@ -58,3 +58,10 @@ sudo service ssh status
 sudo nano /etc/ssh/sshd_config
 sudo service ssh restart
 ```
+
+## Node
+```
+sudo apt-get install nodejs
+sudo apt-get install nodejs-legacy
+sudo apt-get install npm
+```
